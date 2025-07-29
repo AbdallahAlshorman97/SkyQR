@@ -1,7 +1,6 @@
-# qr_scanner/qr_processing/detector.py
-
 import cv2
 from pyzbar import pyzbar
+import numpy as np
 
 
 def detect_qrcodes(frame):
